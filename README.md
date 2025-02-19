@@ -5,7 +5,7 @@ My tools collection for activating VLANS support on dumb switchs powered by the 
 ### To add VLAN support to your switch set registers (in the EEPROM 27c16): 
 
 - Make a dump of you EEPROM.
-- Open this file with the tool provided (`Javascript tool\Index.htm`)
+- Open your newly created dump file with the tool provided (`Javascript tool\Index.htm`)
 - Add necessary registers (provided below), save to a new ROM and burn it.
 - Enjoy !
 - NOTE : You can find my ROM here : [ROM Modified](https://github.com/botzunga/RTL8370N-hacking/raw/refs/heads/main/EEPROM-24C16/DLINK_DGS-1008MP_VLAN_PORT01U_V3-PORT234567U_V2-PORT1T_V2.bin), [ROM Original](https://github.com/botzunga/RTL8370N-hacking/raw/refs/heads/main/EEPROM-24C16/DLINK_DGS-1008MP_original.bin)
