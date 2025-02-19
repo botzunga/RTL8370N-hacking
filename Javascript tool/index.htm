@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>RTL8370 tool</title>
+    <script src="rtl8370.js"></script>
+    <script src="names.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="openDefault();">
+    <div id="header" class="header">RTL8370N tool</div>
+	<!-- Original tool by https://github.com/renzenicolai (https://github.com/renzenicolai/uboot-pine64-clusterboard-instructions/tree/master/Ethernet%20switch) -->
+	<!-- Modified by https://github.com/botzunga - Feb 2025 -->
+    <!--<div class="toolbar"><a onclick="" href="#toolbar2">[vvv SCROLL vvv]</a>&nbsp;<a onclick="openClusterboard();" href="#">[OPEN CLUSTERBOARD DEFAULT]</a>&nbsp;<a onclick="openFile();" href="#">[OPEN FILE]</a>&nbsp;<a onclick="saveFile();"  href="#">[SAVE FILE]</a></div>-->
+	<div class="toolbar"><a onclick="" href="#toolbar2">[⏬ SCROLL ⏬]</a>&nbsp;<a onclick="openFile();" href="#">[📁 OPEN FILE]</a>&nbsp;<a onclick="saveFile();"  href="#">[💾 SAVE FILE]</a></div>
+    <div class="editor" id="editor">Loading... (Please make sure JavaScript is enabled)</div>
+    <div id="toolbar2" class="toolbar2"><a onclick="" href="#header">[⏫ SCROLL ⏫]</a>&nbsp;&nbsp;&nbsp;<a href="#toolbar2" onclick="editorNew();">🔆 Add entry...</a></div>
+    <div style="display: none;"><input type="file" id="file" onchange="openFileCallback();"/></div>
+	</br>
+  </body>
+</html>
